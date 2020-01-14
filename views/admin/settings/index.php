@@ -22,18 +22,22 @@ use yii\web\View;
 
     <?= $form->field($model, 'content_root_link') ?>
 
-    <?= $form->field($model, 'access_permission')->widget('yii\jui\AutoComplete', [
-        'options' => [
-            'class' => 'form-control',
-        ],
-        'clientOptions' => [
-            'source' => array_keys(Yii::$app->authManager->getPermissions()),
-        ],
-    ]);
-    ?>
+    <?php if (Yii::$app->authManager instanceof \yii\rbac\ManagerInterface): ?>
+
+        <?= $form->field($model, 'access_permission')->widget('yii\jui\AutoComplete', [
+            'options' => [
+                'class' => 'form-control',
+            ],
+            'clientOptions' => [
+                'source' => array_keys(Yii::$app->authManager->getPermissions()),
+            ],
+        ]);
+        ?>
+
+    <?php endif; ?>
 
     <div class="form-group">
-        <?= Html::submitButton(Yii::t('rcms-core', 'Save'), [ 'class' => 'btn btn-primary' ]) ?>
+        <?= Html::submitButton(Yii::t('rcms-core', 'Save'), ['class' => 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end() ?>
