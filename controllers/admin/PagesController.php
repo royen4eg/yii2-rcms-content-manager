@@ -7,6 +7,12 @@ use rcms\contentManager\models\ContentPageForm;
 use rcms\contentManager\models\ContentPageSearch;
 use rcms\core\base\BaseAdminController;
 
+/**
+ * Class PagesController
+ * @package rcms\contentManager\controllers\admin
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class PagesController extends BaseAdminController
 {
     public $availableActions = [

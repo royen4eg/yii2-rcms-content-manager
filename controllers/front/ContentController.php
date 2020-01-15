@@ -15,6 +15,12 @@ use Yii;
 use yii\web\Response;
 use yii\web\View;
 
+/**
+ * Class ContentController
+ * @package rcms\contentManager\controllers\front
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentController extends BaseFrontController
 {
     /* @var string */

@@ -10,6 +10,12 @@ use yii\data\ActiveDataProvider;
 use yii\data\DataProviderInterface;
 use yii\helpers\ArrayHelper;
 
+/**
+ * Class ContentFileStorageSearch
+ * @package rcms\contentManager\models
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentFileStorageSearch extends BaseSearchModel
 {
     const FA_ICON_CLASS = 'fas fa-';

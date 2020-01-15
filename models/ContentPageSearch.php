@@ -9,6 +9,12 @@ use yii\data\ActiveDataProvider;
 use yii\data\DataProviderInterface;
 use yii\helpers\ArrayHelper;
 
+/**
+ * Class ContentPageSearch
+ * @package rcms\contentManager\models
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentPageSearch extends BaseSearchModel
 {
 

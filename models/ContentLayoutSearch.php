@@ -11,6 +11,12 @@ use yii\data\ActiveDataProvider;
 use yii\data\DataProviderInterface;
 use yii\helpers\ArrayHelper;
 
+/**
+ * Class ContentLayoutSearch
+ * @package rcms\contentManager\models
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentLayoutSearch extends ContentLayout implements SearchInterface
 {
 

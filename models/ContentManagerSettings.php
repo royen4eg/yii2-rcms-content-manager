@@ -2,12 +2,10 @@
 
 namespace rcms\contentManager\models;
 
-use rcms\core\AdminModule;
 use rcms\core\models\CoreSettings;
 use Yii;
 use yii\base\Model;
 use yii\helpers\FileHelper;
-use yii\helpers\Markdown;
 use yii\helpers\Url;
 
 class ContentManagerSettings extends Model
@@ -131,7 +129,7 @@ class ContentManagerSettings extends Model
     {
         $this->trigger(self::EVENT_AFTER_FIND);
         if (empty($this->access_permission)) {
-            $this->access_permission = Yii::$app->modules[AdminModule::$moduleId]->settings->defaultAccessRole;
+            $this->access_permission = (new CoreSettings())->defaultAccessRole;
         }
     }
 }

@@ -10,6 +10,8 @@ use rcms\core\base\ActiveRecord;
 
 /**
  * This is the model class for table "{{%content_layout}}".
+ * @author Andrii Borodin
+ * @since 0.1
  *
  * @property int $content_layout_id
  * @property string $layout_name

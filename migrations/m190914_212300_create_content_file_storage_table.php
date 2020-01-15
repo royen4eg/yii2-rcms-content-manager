@@ -4,6 +4,8 @@ use rcms\core\migrations\Migration;
 
 /**
  * Handles the creation of table `{{%content_file_storage}}`.
+ * @author Andrii Borodin
+ * @since 0.1
  */
 class m190914_212300_create_content_file_storage_table extends Migration
 {

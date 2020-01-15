@@ -6,6 +6,8 @@ use yii\db\ActiveQuery;
 
 /**
  * This is the ActiveQuery class for [[ContentRevision]].
+ * @author Andrii Borodin
+ * @since 0.1
  *
  * @see ContentRevision
  */

@@ -4,6 +4,8 @@ use rcms\core\migrations\Migration;
 
 /**
  * Handles the creation of table `{{%content_page}}`.
+ * @author Andrii Borodin
+ * @since 0.1
  */
 class m190814_083036_create_content_page_table extends Migration
 {

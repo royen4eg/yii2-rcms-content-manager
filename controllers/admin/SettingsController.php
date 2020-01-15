@@ -6,6 +6,12 @@ use rcms\contentManager\models\ContentManagerSettings;
 use rcms\core\base\BaseAdminController;
 use Yii;
 
+/**
+ * Class SettingsController
+ * @package rcms\contentManager\controllers\admin
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class SettingsController extends BaseAdminController
 {
     public $availableActions = [

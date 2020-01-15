@@ -4,6 +4,8 @@ namespace rcms\contentManager\models;
 
 /**
  * This is the ActiveQuery class for [[ContentLayout]].
+ * @author Andrii Borodin
+ * @since 0.1
  *
  * @see ContentLayout
  */

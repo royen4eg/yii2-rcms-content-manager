@@ -5,8 +5,9 @@ use yii\bootstrap4\BootstrapPluginAsset;
 use yii\web\AssetBundle;
 
 /**
+ * Class FrontPageAssets
  * RCMS Front Page assets asset bundle
- *
+ * @package rcms\contentManager\assets
  * @author Andrii Borodin
  * @since 0.1
  */

@@ -20,6 +20,7 @@ use yii\web\View;
  * @package rcms\contentManager
  *
  * @author Andrii Borodin
+ * @since 0.1
  *
  * @property ContentManagerSettings $settings
  */

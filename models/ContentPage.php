@@ -15,6 +15,8 @@ use yii\web\IdentityInterface;
 
 /**
  * This is the model class for table "{{%content_page}}".
+ * @author Andrii Borodin
+ * @since 0.1
  *
  * @property int $content_page_id
  * @property string $language

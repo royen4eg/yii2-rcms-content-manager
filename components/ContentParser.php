@@ -12,7 +12,7 @@ use yii\web\View;
  * Class ContentParser
  * @package rcms\contentManager\components
  * @author Andrii Borodin
- *
+ * @since 0.1 *
  * TODO: Change logic to next - grab all between {{ }} and then check what is what
  * Also remove addFormatter()
  */

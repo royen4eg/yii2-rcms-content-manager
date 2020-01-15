@@ -8,6 +8,12 @@ use Yii;
 use yii\base\Model;
 use yii\web\UploadedFile;
 
+/**
+ * Class ContentFileUploadForm
+ * @package rcms\contentManager\models
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentFileUploadForm extends Model
 {
 

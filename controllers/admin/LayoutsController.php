@@ -8,6 +8,12 @@ use rcms\contentManager\models\ContentLayout;
 use rcms\contentManager\models\ContentLayoutSearch;
 use rcms\core\base\BaseAdminController;
 
+/**
+ * Class LayoutsController
+ * @package rcms\contentManager\controllers\admin
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class LayoutsController extends BaseAdminController
 {
     public $availableActions = [

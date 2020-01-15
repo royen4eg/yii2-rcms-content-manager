@@ -10,6 +10,8 @@ use yii\helpers\FileHelper;
 
 /**
  * This is the model class for table "{{%content_file_storage}}".
+ * @author Andrii Borodin
+ * @since 0.1
  *
  * @property int $file_id
  * @property string $file_hash

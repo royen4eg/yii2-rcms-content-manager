@@ -17,6 +17,9 @@ use yii\web\UploadedFile;
 /**
  * Class FileManagerController
  * @package rcms\contentManager\controllers\admin
+ * @author Andrii Borodin
+ * @since 0.1
+ *
  * @property ContentFileStorage $modelObject
  */
 class FileManagerController extends BaseAdminController

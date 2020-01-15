@@ -7,6 +7,12 @@ use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
+/**
+ * Class ContentPageForm
+ * @package rcms\contentManager\models
+ * @author Andrii Borodin
+ * @since 0.1
+ */
 class ContentPageForm extends ContentPage
 {
 
